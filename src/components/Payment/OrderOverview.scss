@@ -1,0 +1,53 @@
+.overview-container {
+  width: 45%;
+
+  @media only screen and (max-width: 1300px) {
+    width: 85%;
+  }
+
+  .overview-item {
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 8rem;
+      height: 6rem;
+    }
+
+    .product-name {
+      width: 50%;
+      h2 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        font-size: x-small;
+      }
+    }
+    .price {
+      width: 15%;
+      line-height: 6rem;
+      text-align: right;
+    }
+  }
+  .summary {
+    padding: 1rem;
+
+    table {
+      width: 100%;
+
+      .left-column {
+        text-align: left;
+      }
+      .right-column {
+        text-align: right;
+      }
+    }
+  }
+}

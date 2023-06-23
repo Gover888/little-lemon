@@ -1,0 +1,103 @@
+.forms {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 0 1rem 1rem;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1300px) {
+  .forms {
+    width: 85%;
+  }
+}
+.forms form {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.forms form .form-autofill {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border: 1px solid grey;
+}
+.forms form .form-autofill li button {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 0.5rem;
+}
+.forms form .form-autofill li:hover {
+  background-color: rgba(168, 168, 168, 0.6);
+  cursor: pointer;
+}
+.forms .control {
+  width: 90%;
+  margin: 0.5rem 0;
+}
+.forms .control label {
+  display: block;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+.forms .control input {
+  font: inherit;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  border: 1px solid #000000;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+.forms .control input:focus {
+  background-color: rgba(234, 226, 226, 0.6);
+}
+.forms .name-input {
+  width: 40%;
+  margin: 0 2.5rem 0.5rem 0;
+  display: inline-block;
+}
+.forms .short-input {
+  width: 25%;
+  margin: 0.5rem 2.5rem 0.5rem 0;
+  display: inline-block;
+}
+.forms .action {
+  height: 5.875rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.forms .action button {
+  width: 10rem;
+  height: 2.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: #cc331e;
+  border: 1px solid #cc331e;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  margin-right: 2rem;
+  font-size: 1rem;
+}
+.forms .action button:hover {
+  background-color: rgb(232, 42, 16);
+  border-color: #e82a10;
+}
+.forms .action button:disabled,
+.forms .action button:disabled:hover,
+.forms .action button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=AddressForm.css.map */

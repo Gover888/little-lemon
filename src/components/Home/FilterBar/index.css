@@ -1,0 +1,48 @@
+.headProductList {
+  width: 85%;
+  margin: 0 auto 30px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.headProductList * {
+  text-decoration: none;
+  list-style: none;
+}
+.headProductList .optionNavContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1000px) {
+  .headProductList .optionNavContainer {
+    display: none;
+  }
+}
+.headProductList .optionNavContainer .options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headProductList .optionNavContainer .options > :nth-child(n) {
+  margin-right: 15px;
+}
+.headProductList .optionNavContainer .infoRightSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headProductList .optionNavContainer .infoRightSide > div {
+  margin-right: 10px;
+}
+.headProductList .optionNavContainer .infoRightSide > :first-child {
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=index.css.map */

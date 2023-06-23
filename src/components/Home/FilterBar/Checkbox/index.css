@@ -1,0 +1,16 @@
+.checkbox {
+  position: absolute;
+  padding: 0 20px;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.checkbox-bottom {
+  z-index: -10;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

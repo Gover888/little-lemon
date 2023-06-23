@@ -1,0 +1,201 @@
+
+.header-container {
+  .information-bar {
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(225, 46, 1);
+    text-overflow: ellipsis;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin: 0.8rem;
+    }
+
+    .cancelBtn {
+      position: absolute;
+      margin-left: 80%;
+      border: none;
+      font-size: larger;
+      color: white;
+      background-color: transparent;
+      opacity: 60%;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 100%;
+
+      }
+    }
+  }
+
+  .nav-bar {
+    display: flex;
+    height: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(191, 186, 186);
+    background-color: gainsboro;
+    opacity: 60%;
+    padding: 0 5%;
+
+    span {
+      font-size: 1rem;
+      @media only screen and (max-width: 1300px) {
+        font-size: 0.8rem;
+      }
+    }
+
+    .nav-btn-container {
+      width: 16rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      .nav-btn {
+        text-decoration: none;
+        font-size: 1rem;
+        text-align: -moz-center;
+        margin: 0 0.5rem;
+        padding: 0.3rem;
+        color: black;
+        border-bottom: 4px solid transparent;
+
+        &:hover {
+          cursor: pointer;
+          border-bottom: blue 4px solid;
+          opacity: 80%;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 1rem;
+      text-align: -moz-center;
+      margin: 0 0.5rem;
+      padding: 0.3rem;
+      color: black;
+      border-bottom: 4px solid transparent;
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: red 4px solid;
+        opacity: 80%;
+      }
+    }
+  }
+
+  .login-cart {
+    width: 16rem;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .logo-cab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin: 1.5rem 0;
+    border-bottom: 1px solid rgb(226, 222, 222);
+
+    .logo {
+      display: flex;
+      padding-bottom: 1%;
+      //margin: 20px 0 10px 0;
+
+      @media only screen and (max-width: 1300px) {
+        display: none;
+      }
+
+      @media only screen and (max-width: 1000px) {
+        display: block;
+      }
+    }
+
+    .logo-small {
+      display: none;
+      @media only screen and (max-width: 1300px) {
+        display: block;
+      }
+      @media only screen and (max-width: 1000px) {
+        display: none;
+      }
+    }
+
+    .logo-burger-menu {
+      display: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+      @media only screen and (max-width: 1000px) {
+        display: block;
+      }
+    }
+
+
+    .category {
+      display: flex;
+      justify-content: center;
+
+      @media only screen and (max-width: 1000px) {
+        display: none;
+      }
+
+      .cate-btn {
+        padding: 0 10px;
+        background: transparent;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+      }
+
+      .cate-btn:hover {
+        border-bottom: 2px red solid;
+      }
+
+      .active {
+        border-bottom: 2px red solid;
+      }
+    }
+
+    .search-input {
+
+      input {
+        width: 10rem;
+        height: 1.5rem;
+        line-height: 1.25rem;
+        margin: auto 0;
+        transition: width 0.5s;
+      }
+
+      input:focus {
+        width: 12rem;
+      }
+
+      @media only screen and (max-width: 1300px) {
+        display: none;
+      }
+    }
+
+    .search-input2 {
+      display: none;
+
+      @media only screen and (max-width: 1300px) {
+        display: block;
+      }
+    }
+
+    .cart2 {
+      display: none;
+    }
+  }
+}

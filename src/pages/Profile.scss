@@ -1,0 +1,52 @@
+.profile-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 5%;
+
+  .content {
+    width: 60%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    padding: 2.5%;
+    @media only screen and (max-width: 1300px) {
+      width: 85%;
+    }
+
+    ul {
+      width: 20%;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      border-right: #bbbbbb 1px solid;
+
+      li {
+        margin: 1rem;
+        color: #818181;
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .selected {
+        color: #212121;
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      li:hover {
+        cursor: pointer;
+        color: #4d4d4d;
+      }
+    }
+
+    .right {
+      width: 80%;
+
+      .dashboard-text {
+        margin: 1rem;
+      }
+    }
+  }
+}

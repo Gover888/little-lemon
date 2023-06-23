@@ -1,0 +1,40 @@
+.address-container {
+  width: 40%;
+  text-align: left;
+}
+@media only screen and (max-width: 1300px) {
+  .address-container {
+    width: 80%;
+  }
+}
+.address-container .address-content {
+  padding: 1rem;
+}
+.address-container .address-content h4 {
+  font-weight: normal;
+}
+.address-container .address-content button {
+  height: 2.5rem;
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #cc331e;
+  border: 1px solid #cc331e;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  margin: 2rem;
+}
+.address-container .address-content button:hover {
+  background-color: rgb(232, 42, 16);
+  border-color: #e82a10;
+}
+.address-container .address-content button:disabled,
+.address-container .address-content button:disabled:hover,
+.address-container .address-content button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=AddressOverview.css.map */

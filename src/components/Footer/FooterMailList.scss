@@ -1,0 +1,43 @@
+.mail-list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 10px 10px;
+  @media screen and (max-width: 1300px) {
+    text-align: center;
+  }
+
+  .mail-title {
+    color: black;
+    font-size: 17px;
+  }
+
+  .mail-item {
+    margin: 15px 10px 0 0;
+
+    input {
+      width: 200px;
+      height: 50px;
+      font-size: 17px;
+      border: #cccccc solid 1px;
+      border-radius: 5px 0 0 5px;
+      padding: 0 0 0 8px;
+
+      &:hover {
+        background-color: #eaedef;
+      }
+    }
+
+    button {
+      background-color: #212121;
+      color: #e0e0e0;
+      width: 100px;
+      height: 50px;
+      border-radius: 0 5px 5px 0;
+      font-size: 17px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

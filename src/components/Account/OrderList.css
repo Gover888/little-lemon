@@ -1,0 +1,45 @@
+.order-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+.order-list-container .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 3rem;
+  border-bottom: #bbbbbb 1px solid;
+}
+.order-list-container .title a {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 1000px) {
+  .order-list-container .is-complete {
+    display: none;
+  }
+}
+.order-list-container button {
+  height: 2rem;
+  cursor: pointer;
+  color: white;
+  background-color: #cc331e;
+  border: 1px solid #cc331e;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+.order-list-container button:hover {
+  background-color: rgb(232, 42, 16);
+  border-color: #e82a10;
+}
+.order-list-container button:disabled,
+.order-list-container button:disabled:hover,
+.order-list-container button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=OrderList.css.map */

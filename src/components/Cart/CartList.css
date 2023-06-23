@@ -1,0 +1,53 @@
+.cart-list-container {
+  width: 85%;
+  margin: 20px auto;
+}
+.cart-list-container p {
+  font-weight: bold;
+}
+.cart-list-container table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px gainsboro solid;
+  margin: 20px 0;
+}
+.cart-list-container table th {
+  width: 10%;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px gainsboro solid;
+}
+.cart-list-container table .th-product-info {
+  width: 60%;
+  text-align: left;
+}
+.cart-list-container table tr {
+  margin: 10px 0;
+}
+.cart-list-container table td {
+  text-align: center;
+}
+.cart-list-container .checkout-btnline {
+  display: flex;
+  justify-content: center;
+}
+.cart-list-container .checkout-btnline .checkout-btn {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: rgb(208, 52, 31);
+  border: 4px solid rgba(5, 5, 5, 0);
+  color: rgb(255, 255, 255);
+  min-width: 200px;
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=CartList.css.map */

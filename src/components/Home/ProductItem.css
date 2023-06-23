@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1000px) {
+  #product-item-container {
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+  }
+  .product-item-container .content {
+    text-align: center;
+  }
+  .product-item-container .content .swatch-container {
+    display: none;
+  }
+}
+.product-item-container-3 {
+  width: 28% !important;
+}
+
+.product-item-container {
+  position: relative;
+  margin: 20px 20px 50px 20px;
+  width: 20%;
+  height: 20%;
+}
+.product-item-container .img-hover {
+  width: 100%;
+  z-index: 2;
+}
+.product-item-container .img-hover:hover {
+  opacity: 0;
+  transition: all ease-in-out 1s;
+}
+.product-item-container .img-not-hover {
+  width: 100%;
+  transition: all ease-in-out 1s;
+  opacity: 0;
+}
+.product-item-container .img-not-hover:hover {
+  display: block;
+}
+.product-item-container .img-hover-1 {
+  width: 100%;
+  opacity: 0;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all ease-in-out 0.4s;
+}
+.product-item-container .img-hover-1:hover {
+  opacity: 0;
+}
+.product-item-container .img-not-hover-1 {
+  width: 100%;
+  transition: all ease-in-out 0.4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-item-container .img-not-hover-1:hover {
+  display: block;
+}
+.product-item-container .content {
+  display: flex;
+  flex-direction: column;
+}
+.product-item-container .content .name {
+  font-family: Calibri, serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2;
+}
+.product-item-container .content .price {
+  font-size: 12px;
+  line-height: 2;
+}
+.product-item-container .content .swatch-container .swatch-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.product-item-container .content .swatch-container .swatch-list .swatch {
+  width: 24px;
+  height: 24px;
+  margin: 4px;
+  border: transparent 1px solid;
+}
+.product-item-container .content .swatch-container .swatch-list .swatch .color-palette {
+  width: 22px;
+  height: 22px;
+  vertical-align: top;
+  border: 1px solid #d2cdcd;
+}
+.product-item-container .content .swatch-container .swatch-list .swatch-active {
+  border: #343434 1px solid;
+}
+
+/*# sourceMappingURL=ProductItem.css.map */

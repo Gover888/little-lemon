@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.outlineProductInfo {
+  line-height: 2;
+}
+.outlineProductInfo * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.outlineProductInfo .productName {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.outlineProductInfo .designer {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+.outlineProductInfo .currency,
+.outlineProductInfo .price {
+  color: rgb(37, 37, 37);
+  font-size: 1.125rem;
+}
+.outlineProductInfo .highlights {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.outlineProductInfo .highlights > :nth-child(n)::before {
+  content: "√";
+  color: red;
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

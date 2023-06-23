@@ -1,0 +1,99 @@
+.order-detail-container {
+  width: 100%;
+}
+.order-detail-container .detail {
+  width: 60%;
+  margin: 0 auto;
+}
+.order-detail-container .detail .button-weak {
+  background-color: #bfbaba;
+  border: 1px solid rgba(191, 186, 186, 0.6);
+}
+.order-detail-container .detail button {
+  height: 2.5rem;
+  cursor: pointer;
+  color: white;
+  margin-right: 1rem;
+  background-color: #e22d00;
+  border: 1px solid #cc331e;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+.order-detail-container .detail button:hover {
+  background-color: rgb(232, 42, 16);
+  border-color: #e82a10;
+}
+.order-detail-container .detail .first-box {
+  width: 85%;
+  margin: 4rem auto;
+  padding: 2rem;
+  border: #bbbbbb 1px solid;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1000px) {
+  .order-detail-container .detail .first-box {
+    flex-direction: column;
+  }
+}
+.order-detail-container .detail .first-box .address {
+  width: 40%;
+}
+@media only screen and (max-width: 1000px) {
+  .order-detail-container .detail .first-box .address {
+    width: 100%;
+  }
+}
+.order-detail-container .detail .first-box .address h4 {
+  margin: 0.5rem 0;
+}
+.order-detail-container .detail .first-box .address p {
+  margin: 0.5rem 0;
+}
+.order-detail-container .detail .first-box .summary {
+  width: 40%;
+}
+@media only screen and (max-width: 1300px) {
+  .order-detail-container .detail .first-box .summary {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .order-detail-container .detail .first-box .summary {
+    width: 100%;
+  }
+}
+.order-detail-container .detail .first-box .summary h4 {
+  margin: 0.5rem 0;
+}
+.order-detail-container .detail .first-box .summary table {
+  width: 100%;
+}
+.order-detail-container .detail .first-box .summary table .left-column {
+  text-align: left;
+}
+.order-detail-container .detail .first-box .summary table .right-column {
+  text-align: right;
+}
+.order-detail-container .detail .order-items {
+  width: 85%;
+  margin: 4rem auto;
+  padding: 2rem;
+  border: #bbbbbb 1px solid;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.order-detail-container .detail .order-items .top-line {
+  background-color: #e0e0e0;
+  width: 110%;
+  height: 3rem;
+  transform: translateX(-5%) translateY(-2rem);
+  padding: 0 8%;
+  line-height: 3rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=OrderDetail.css.map */

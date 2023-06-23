@@ -1,0 +1,107 @@
+.account-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+
+  .title {
+    font-size: 50px;
+  }
+
+  .track {
+    font-size: 14px;
+  }
+
+  .forms {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 2rem auto;
+    width: 85%;
+
+    @media only screen and (max-width: 1000px) {
+      flex-direction: column;
+      margin: 2rem auto;
+    }
+
+    p {
+      text-align: left;
+      color: red;
+    }
+
+    form {
+      width: 30%;
+      margin: 0 auto;
+      @media only screen and (max-width: 1000px) {
+        width: 60%;
+      }
+    }
+
+    .register {
+      width: 30%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0 auto
+    }
+    .control {
+      margin-bottom: 0.5rem;
+
+      label {
+        display: block;
+        color: #000000;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        text-align: left;
+      }
+
+      input {
+        font: inherit;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border-radius: 4px;
+        border: 1px solid #000000;
+        width: 100%;
+        text-align: left;
+        padding: 0.25rem;
+      }
+
+      input:focus {
+        background-color: rgba(234, 226, 226, 0.6);
+      }
+    }
+    .invalid input{
+      border: 1px solid #b40e0e;
+      background-color: #fddddd;
+    }
+    .action {
+      margin: 1.5rem 0;
+      text-align: left;
+
+      button {
+        cursor: pointer;
+        color: white;
+        background-color: #cc331e;
+        border: 1px solid #cc331e;
+        border-radius: 4px;
+        padding: 0.3rem 2.5rem;
+        margin-right: 2rem;
+      }
+
+      button:hover {
+        background-color: rgb(232, 42, 16);
+        border-color: #e82a10;
+      }
+
+      button:disabled,
+      button:disabled:hover,
+      button:disabled:active {
+        background-color: #ccc;
+        color: #292929;
+        border-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

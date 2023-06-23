@@ -1,0 +1,183 @@
+.header-container .information-bar {
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(225, 46, 1);
+  text-overflow: ellipsis;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-container .information-bar p {
+  margin: 0.8rem;
+}
+.header-container .information-bar .cancelBtn {
+  position: absolute;
+  margin-left: 80%;
+  border: none;
+  font-size: larger;
+  color: white;
+  background-color: transparent;
+  opacity: 60%;
+}
+.header-container .information-bar .cancelBtn:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+.header-container .nav-bar {
+  display: flex;
+  height: 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(191, 186, 186);
+  background-color: gainsboro;
+  opacity: 60%;
+  padding: 0 5%;
+}
+.header-container .nav-bar span {
+  font-size: 1rem;
+}
+@media only screen and (max-width: 1300px) {
+  .header-container .nav-bar span {
+    font-size: 0.8rem;
+  }
+}
+.header-container .nav-bar .nav-btn-container {
+  width: 16rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-container .nav-bar .nav-btn-container .nav-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: -moz-center;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  color: black;
+  border-bottom: 4px solid transparent;
+}
+.header-container .nav-bar .nav-btn-container .nav-btn:hover {
+  cursor: pointer;
+  border-bottom: blue 4px solid;
+  opacity: 80%;
+}
+.header-container .nav-bar a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: -moz-center;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  color: black;
+  border-bottom: 4px solid transparent;
+}
+.header-container .nav-bar a:hover {
+  cursor: pointer;
+  border-bottom: red 4px solid;
+  opacity: 80%;
+}
+.header-container .login-cart {
+  width: 16rem;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-container .logo-cab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5%;
+  margin: 1.5rem 0;
+  border-bottom: 1px solid rgb(226, 222, 222);
+}
+.header-container .logo-cab .logo {
+  display: flex;
+  padding-bottom: 1%;
+}
+@media only screen and (max-width: 1300px) {
+  .header-container .logo-cab .logo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header-container .logo-cab .logo {
+    display: block;
+  }
+}
+.header-container .logo-cab .logo-small {
+  display: none;
+}
+@media only screen and (max-width: 1300px) {
+  .header-container .logo-cab .logo-small {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header-container .logo-cab .logo-small {
+    display: none;
+  }
+}
+.header-container .logo-cab .logo-burger-menu {
+  display: none;
+}
+.header-container .logo-cab .logo-burger-menu:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+  .header-container .logo-cab .logo-burger-menu {
+    display: block;
+  }
+}
+.header-container .logo-cab .category {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1000px) {
+  .header-container .logo-cab .category {
+    display: none;
+  }
+}
+.header-container .logo-cab .category .cate-btn {
+  padding: 0 10px;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.header-container .logo-cab .category .cate-btn:hover {
+  border-bottom: 2px red solid;
+}
+.header-container .logo-cab .category .active {
+  border-bottom: 2px red solid;
+}
+.header-container .logo-cab .search-input input {
+  width: 10rem;
+  height: 1.5rem;
+  line-height: 1.25rem;
+  margin: auto 0;
+  transition: width 0.5s;
+}
+.header-container .logo-cab .search-input input:focus {
+  width: 12rem;
+}
+@media only screen and (max-width: 1300px) {
+  .header-container .logo-cab .search-input {
+    display: none;
+  }
+}
+.header-container .logo-cab .search-input2 {
+  display: none;
+}
+@media only screen and (max-width: 1300px) {
+  .header-container .logo-cab .search-input2 {
+    display: block;
+  }
+}
+.header-container .logo-cab .cart2 {
+  display: none;
+}
+
+/*# sourceMappingURL=NavigationBar.css.map */

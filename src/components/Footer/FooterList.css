@@ -1,0 +1,16 @@
+body .list-title {
+  color: #212121;
+  font-weight: bold;
+  font-size: 17px;
+}
+body .list-items {
+  color: #818181;
+  font-weight: bold;
+  font-size: 15px;
+}
+body .list-items .service-item:hover {
+  cursor: pointer;
+  color: #4d4d4d;
+}
+
+/*# sourceMappingURL=FooterList.css.map */

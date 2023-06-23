@@ -1,0 +1,39 @@
+.outlineProductInfo {
+  line-height: 2;
+
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .productName {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .designer {
+    font-size: .875rem;
+    font-weight: 400;
+    color: rgb(117, 117, 117)
+  }
+
+  .currency,
+  .price {
+    color: rgb(37, 37, 37);
+    font-size: 1.125rem;
+  }
+
+  .highlights {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 10px;
+
+    &>:nth-child(n)::before {
+      content: "√";
+      color: red;
+      padding-right: 10px;
+    }
+
+  }
+}

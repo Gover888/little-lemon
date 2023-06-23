@@ -1,0 +1,41 @@
+.address-container {
+  width: 40%;
+  text-align: left;
+
+  @media only screen and (max-width: 1300px) {
+    width: 80%;
+  }
+
+  .address-content {
+    padding: 1rem;
+    h4 {
+      font-weight: normal;
+    }
+
+    button {
+      height: 2.5rem;
+      cursor: pointer;
+      font: inherit;
+      color: white;
+      background-color: #cc331e;
+      border: 1px solid #cc331e;
+      border-radius: 4px;
+      padding: 0.5rem 1.5rem;
+      margin: 2rem;
+    }
+
+    button:hover {
+      background-color: rgb(232, 42, 16);
+      border-color: #e82a10;
+    }
+
+    button:disabled,
+    button:disabled:hover,
+    button:disabled:active {
+      background-color: #ccc;
+      color: #292929;
+      border-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+$categoryNavColor: rgb(124, 124, 124);
+.category-nav-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  width: 85%;
+  margin: 0 auto 40px;
+
+  & > nav:not(:last-child)::after {
+    content: '>';
+    padding: 10px;
+  }
+
+  .category-nav {
+    color: $categoryNavColor;
+    font-weight: 700;
+  }
+}

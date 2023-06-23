@@ -1,0 +1,20 @@
+.radio-group {
+  margin: 1rem 0;
+
+  .category-name {
+    width: 20rem;
+    padding: 1rem 2rem;
+    background-color: #f7f7f7;
+    color: black;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+
+  .radio-content {
+    label {
+      padding-left: 4%;
+    }
+  }
+}

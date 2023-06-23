@@ -1,0 +1,50 @@
+.overview-container {
+  width: 45%;
+}
+@media only screen and (max-width: 1300px) {
+  .overview-container {
+    width: 85%;
+  }
+}
+.overview-container .overview-item {
+  height: 6rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.overview-container .overview-item img {
+  width: 8rem;
+  height: 6rem;
+}
+.overview-container .overview-item .product-name {
+  width: 50%;
+}
+.overview-container .overview-item .product-name h2 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.overview-container .overview-item .product-name p {
+  font-size: x-small;
+}
+.overview-container .overview-item .price {
+  width: 15%;
+  line-height: 6rem;
+  text-align: right;
+}
+.overview-container .summary {
+  padding: 1rem;
+}
+.overview-container .summary table {
+  width: 100%;
+}
+.overview-container .summary table .left-column {
+  text-align: left;
+}
+.overview-container .summary table .right-column {
+  text-align: right;
+}
+
+/*# sourceMappingURL=OrderOverview.css.map */

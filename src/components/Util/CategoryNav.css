@@ -1,0 +1,17 @@
+.category-nav-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  width: 85%;
+  margin: 0 auto 40px;
+}
+.category-nav-container > nav:not(:last-child)::after {
+  content: ">";
+  padding: 10px;
+}
+.category-nav-container .category-nav {
+  color: rgb(124, 124, 124);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=CategoryNav.css.map */

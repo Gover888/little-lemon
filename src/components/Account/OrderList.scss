@@ -1,0 +1,48 @@
+.order-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+
+  .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 3rem;
+    border-bottom: #bbbbbb 1px solid;
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .is-complete {
+    @media only screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+  button {
+    height: 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: #cc331e;
+    border: 1px solid #cc331e;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+  }
+
+  button:hover {
+    background-color: rgb(232, 42, 16);
+    border-color: #e82a10;
+  }
+
+  button:disabled,
+  button:disabled:hover,
+  button:disabled:active {
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+}

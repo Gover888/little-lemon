@@ -1,0 +1,69 @@
+.side-bar-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.4rem;
+}
+.side-bar-container .modal {
+  z-index: 25;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.6);
+  backdrop-filter: blur(3px);
+}
+.side-bar-container .side-bar {
+  z-index: 30;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  width: 21rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.side-bar-container .side-bar .cate-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.side-bar-container .side-bar .account {
+  color: red;
+}
+.side-bar-container .side-bar .account a {
+  color: red;
+}
+.side-bar-container .side-bar .sub-menu-items .sub-menu-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.side-bar-container .side-bar .sub-menu-items li {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.side-bar-container .side-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto;
+}
+.side-bar-container .side-bar ul li {
+  border-bottom: 1px solid #eeeeee;
+  width: 18rem;
+  padding: 1.5rem 1rem;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+.side-bar-container .side-bar ul li:hover {
+  cursor: pointer;
+}
+.side-bar-container .side-bar a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=HomeSideBar.css.map */
